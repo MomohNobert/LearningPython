@@ -20,7 +20,6 @@ class inclusive_range:
             i += self.step
 
 def main():
-    o = inclusive_range(4)
-    for i in o: print(i, end = ' ')
+    for i in inclusive_range(24): print(i, end = ' ')
 
 if __name__ == "__main__": main()
