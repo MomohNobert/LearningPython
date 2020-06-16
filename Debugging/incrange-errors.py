@@ -1,8 +1,3 @@
-#!/usr/bin/python3
-# incrange-errors.py by Bill Weinman [http://bw.org/]
-# This is an exercise file from Python 3 Essential Training on lynda.com
-# Copyright 2010 The BearHeart Group, LLC
-
 class inclusive_range:
     def __init__(self, *args):
         numargs = len(args)
@@ -15,12 +10,12 @@ class inclusive_range:
             (self.start, self.stop) = args
             step = 1
         elif numargs == 3:
-            (self.step, self.stop, self.start) = args
+            (self.start, self.stop, self.step) = args
         else: raise TypeError('inclusiveRange expected at most 3 arguments, got {}'.format(numargs))
 
     def __iter__(self):
         i = self.start
-        while i >= self.stop:
+        while i <= self.stop:
             yield i
             i += self.step
 
