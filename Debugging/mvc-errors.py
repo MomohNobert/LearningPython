@@ -18,7 +18,7 @@ class AnimalActions:
 class Duck(AnimalActions):
     strings = dict(
         quack = "Quaaaaak!",
-        faethers = "The duck has gray and white feathers."
+        feathers = "The duck has gray and white feathers."
     )
  
 class Person(AnimalActions):
