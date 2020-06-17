@@ -1,4 +1,4 @@
-import continue_module
+from continue_module import printNumbers
 
 def add_numbers(*args):
     total = 0
@@ -7,4 +7,4 @@ def add_numbers(*args):
     print(total)
 
 add_numbers(1,2,3)
-continue_module.printNumbers()
+printNumbers()
