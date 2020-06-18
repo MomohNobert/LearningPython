@@ -17,5 +17,7 @@ class Enemy:
 
 jason = Enemy(10)
 rosharch = Enemy(15)
+
+
 jason.get_energy()
 rosharch.get_energy()
