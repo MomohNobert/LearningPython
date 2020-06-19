@@ -1,6 +1,6 @@
 {
     "python.pythonPath": "C:\\Users\\Acer\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
-    "python.autoComplete.extraPaths": ["./WebCrawler"],
+    "python.autoComplete.extraPaths": ["./WebCrawler", "./Intermediate"],
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true
 }
