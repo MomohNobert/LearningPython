@@ -1,6 +1,9 @@
 from PIL import Image
 
-img = Image.open('luffy.jpg')
-r, g, b, a = img.split()
+img = Image.open('afro.jpg')
+r, g, b = img.split()
 
-g.show()
+# g.show()
+
+new_img = Image.merge('RGB', (g,r,b))
+new_img.show()
