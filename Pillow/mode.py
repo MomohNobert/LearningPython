@@ -8,4 +8,9 @@ img = Image.open('afro.jpg')
 
 # bw_img.show()
 blur = img.filter(ImageFilter.BLUR)
+detail = img.filter(ImageFilter.DETAIL)
+edges = img.filter(ImageFilter.FIND_EDGES)
+
 blur.show()
+detail.show()
+edges.show()
