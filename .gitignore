@@ -127,3 +127,6 @@ venv/Lib/site-packages/setuptools/extern/__pycache__/
 .idea/sonarlint/issuestore/d/
 .idea/sonarlint/issuestore/e/
 .idea/sonarlint/issuestore/f/
+!/.vscode/
+!/.venv/
+
